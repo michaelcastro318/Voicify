@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Voicify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Voicify</h1>
+      <select id="voices"></select>
+      <label>Rate:</label>
+      <input type="range" id="rate" value="1" min="0" max="3" step="0.1" />
+      <label>Pitch:</label>
+      <input type="range" id="pitch" value="1" min="0" max="2" step="0.1" />
+      <textarea id="text">Put anything and I will Speak!</textarea>
+      <div>
+        <button id="stop-button">Stop</button>
+        <button id="speak-button">Speak</button>
+      </div>
+    </main>
+  </body>
+</html>
